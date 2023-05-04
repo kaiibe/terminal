@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  color: #519975;
+  background: #211d1b;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #211d1b;
+  background-color: #519975;
+}
+
+::-moz-selection {
+  color: #211d1b;
+  background-color: #519975;
+}
+
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cursor {
+  font-size: 12px;
+  color: #73abad;
+  background-color: #73abad;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+
+#command {
+  cursor: text;
+  height: 50px;
+  color: #73abad;
+}
+
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  opacity: 1;
+}
+
+#liner::before {
+  color: #519975;
+  content: "visitor@fkcodes.com:~$";
+}
+
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.index {
+  color: #dcdccc;
+}
+
+.color2 {
+  color: #b89076;
+}
+
+.command {
+  color: #73abad;
+  text-shadow: 0 0 5px #73abad;
+}
+
+.error {
+  color: #b89076;
+}
+
+.white {
+  color: #fff;
+}
+
+.inherit,
+a {
+  color: #9c8394;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+a:hover {
+  background: #bfbfbf;
+  color: #211d1b;
+}
+
+a:focus {
+  outline: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

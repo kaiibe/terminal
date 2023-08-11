@@ -3,6 +3,11 @@ const linkedinUrl = "https://www.linkedin.com/in/behzod-khomidov-bk/";
 const githubUrl = "https://github.com/kaiibe/";
 const codeforcesUrl = "https://codeforces.com/profile/Beha_888";
 const leetcodeUrl = "https://leetcode.com/kaiibe";
+const AAIUrl =
+  "https://www.linkedin.com/company/automotive-artificial-intelligence-aai-gmbh/mycompany/";
+const UEUrl =
+  "https://www.linkedin.com/school/university-of-europe-for-applied-sciences/";
+const AlifUrl = "https://www.linkedin.com/company/alif-capital/";
 
 email = "mailto:kaiibe@mail.ru";
 error =
@@ -12,6 +17,7 @@ error =
   "<br>",
   "<span class='command'>ls</span>              Display list of commands",
   "<span class='command'>whoami</span>          Who is Behzod?",
+  "<span class='command'>activities</span>      Industry experience",
   "<span class='command'>social</span>          My social networks",
   "<span class='command'>projects</span>        My coding projects",
   "<span class='command'>email</span>           Do not email me",
@@ -43,6 +49,19 @@ error =
     "enjoy learning and practicing new songs in my free time. Additionally, I enjoy playing <br>",
     "volleyball with friends and participating in local leagues. Overall, I strive to maintain a <br>",
     "healthy work-life balance and pursue my passions both inside and outside of my field of study. <br>",
+    "<br>",
+  ]),
+  (activities = [
+    "<br>",
+    "15.05.2023 - Present       Associate Developer     <a href='" +
+      AAIUrl +
+      "' target='_blank'>Automotive Artificial Intelligence (AAI) GmbH</a>",
+    "01.03.2023 - 01.04.2023    Intern                  <a href='" +
+      AlifUrl +
+      "' target='_blank'>Alif Bank</a>",
+    "01.10.2022 - 01.02.2023    Peer Lead               <a href='" +
+      UEUrl +
+      "' target='_blank'>University of Europe for Applied Sciences</a>",
     "<br>",
   ]),
   (social = [

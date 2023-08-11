@@ -20,6 +20,23 @@ body {
   background-color: #519975;
 }
 
+body::-webkit-scrollbar {
+  width: 6px; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #519975; 
+  border-radius: 5px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #211d1b; 
+}
+
 textarea {
   left: -1000px;
   position: absolute;

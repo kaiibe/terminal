@@ -3,9 +3,14 @@ var liner = document.getElementById("liner");
 var command = document.getElementById("typer");
 var textarea = document.getElementById("texter");
 var terminal = document.getElementById("terminal");
+var body = document.body;
 
 var git = 0;
 var commands = [];
+
+document.addEventListener("click", function () {
+  textarea.focus();
+});
 
 setTimeout(function () {
   loopLines(banner, "", 80);
@@ -51,6 +56,9 @@ function commander(cmd) {
     case "whoami":
       loopLines(whoami, "color2 margin", 80);
       break;
+    case "activities":
+      loopLines(activities, "color2 margin", 80);
+      break;
     case "social":
       loopLines(social, "color2 margin", 80);
       break;
@@ -77,7 +85,7 @@ function commander(cmd) {
       }, 1);
       break;
     case "banner":
-      loopLines(banner, "",  80)
+      loopLines(banner, "", 80);
       break;
     default:
       addLine(error, "error", 100);

@@ -14,3 +14,8 @@
    ```
 3. Open the project and run it on the Live Server!
 
+# Preview
+
+<p align="center">
+<img src="/assets/terminal-preview.png"/> 
+</p>

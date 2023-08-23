@@ -1,6 +1,7 @@
 # Terminal Portfolio
 
 <p>Terminal Portfolio web application using basic html/css/js</p>
+<p>Here is the <a href="https://kaiibe.github.io/terminal-portfolio/">link to visit the website.</a></p>
 
 ## How to Run
 

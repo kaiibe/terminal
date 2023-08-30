@@ -5,13 +5,17 @@
 ## Installation Steps
 
 1. Clone the repo
+2. 
    ```sh
    https://github.com/kaiibe/terminal-portfolio.git
    ```
+   
    or
+   
    ```sh
    git@github.com:kaiibe/terminal-portfolio.git
    ```
+   
 3. Open the project and run it on the Live Server!
 
 ## Preview
